@@ -1,0 +1,26 @@
+# Ignore sensitive data
+e2e/config.secret.json
+e2e/config.json
+
+# Ignore test reports and data
+test-reports/
+playwright-report/
+blob-report/
+playwright/.cache/
+
+# Node modules
+node_modules/
+
+# Environment files
+.env
+.env.*
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db 
